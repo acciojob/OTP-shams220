@@ -1,6 +1,6 @@
 //your JS code here. If required.
       const inputs = document.querySelectorAll('input');
-
+inputs[0].focus();
     inputs.forEach((input, index) => {
       input.addEventListener('keyup', (e) => {
         if (e.key.match(/^[a-zA-Z0-9]$/)) {
